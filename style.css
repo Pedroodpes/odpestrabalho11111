@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --cor-de-fundo: #5900ffbe;
+    --verde:#6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo:rgba(4, 4, 12, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.5);
+ }
+ body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+font-family: 'Alfa Slab One';
+
+ }
+ 
+ .conteudo-principal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+ }
+
+
+.titulo-principal{
+   text-align: left;
+   width: 100%;
+   font-size: 32px;
+
+}
+
+.titulo-principal span{
+   color: var(--verde);
+}
+
+.botao{
+background-color: var(--botao-inativo);
+color: var(--branco);
+display: flex;
+justify-content: center;
+padding: 1em;
+font-size: 18pc;
+align-items: center;
+width: 100%;
+border-bottom: 4px solid var(--botao-inativo);
+border-left: 2pc solid var(--botao-ativo);
+border-right: 2px solid var(--botao-ativo);
+
+
+}
+

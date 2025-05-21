@@ -1,2 +1,2 @@
-# odpestrabalho11111
-aula com bruno
+# Matematica-II-3C
+Repositório das aulas de Matemática II.
